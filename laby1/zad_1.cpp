@@ -31,4 +31,6 @@ int main(int argc, char* argv[])
     delete[] numbers;
 
     return 0;
+
+    //test kometarza
 }
