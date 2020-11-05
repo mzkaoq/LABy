@@ -3,16 +3,11 @@
 #include <algorithm>
 using namespace std;
 
-/*template <class T> void funckja(T **p,T **q)
+template <class T> void swap(T **p,T **q)
 {
     T *c=*p;
     *p=*q;
     *q=c;
-
-}*/
-void funckja(int **p,int **q)
-{
-   swap(*p,*q);
 
 }
 int main()
@@ -25,7 +20,7 @@ int main()
      cin>>b;
      cout<<"adres a "<<&a<<endl;
      cout<<"adres b "<<&b<<endl;
-     funckja(&p,&q);
+     swap(&p,&q);
      cout<<"wartosc na jaka wskazuje p "<<*p<<endl;
      cout<<"wartosc na jaka wskazuje q "<<*q<<endl;
     cout<<"na jaki adres wskazuje p "<<p<<endl;
