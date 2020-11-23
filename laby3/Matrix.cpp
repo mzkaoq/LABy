@@ -5,11 +5,22 @@
 
 using namespace std;
 
-Matrix::Macierz(int x,int y)
+Matrix::Matrix(int x,int y) : rze(x), kol(y)
 {
     if(x>0 && y>0)
     {
-        tab[x][y] = 0;
+        tab = new double*[rze];
+        for (int i = 0; i < rze; ++i)
+        {
+            tab[i] = new double[kol];
+        }
+        for (int i = 0; i < rze; ++i) 
+        {
+            for (int j = 0; j < kol; ++j)    
+            {
+                tab[i][j] = 0;
+            }
+        }
     }
     else
     {
@@ -17,11 +28,22 @@ Matrix::Macierz(int x,int y)
     }
 }
 
-Matrix::Macierz(int x)
+Matrix::Matrix(int x) : rze(x), kol(x)
 {
     if(x>0)
     {
-        tab[x][x] = 0;
+        tab = new double*[rze];
+        for (int i = 0; i < rze; ++i)
+        {
+            tab[i] = new double[kol];
+        }
+        for (int i = 0; i < rze; ++i) 
+        {
+            for (int j = 0; j < kol; ++j)    
+            {
+                tab[i][j] = 0;
+            }
+        }
     }
     else
     {
@@ -32,9 +54,9 @@ Matrix::Macierz(int x)
 void Matrix::Print()
 {
     cout << endl;
-    for (int i=0; i<x; i++)
+    for (int i=0; i<rze; i++)
     {
-    for (int j=0; j<y; j++)
+    for (int j=0; j<kol; j++)
     {
     cout << tab[i][j] << " ";
     }
