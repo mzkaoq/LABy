@@ -6,8 +6,8 @@ using namespace std;
 
 void test()
 {
-    Matrix macierz(5,6);
-    macierz.Print();
+    Matrix m1(5,6);
+    m1.Print();
 }
 int main()
 {
