@@ -6,9 +6,11 @@ using namespace std;
 class Matrix
 {
     public:
+    int kol, rze;
+    double **tab;
     //konstruktory
-    Macierz(int x,int y);
-    Macierz(int x);
+    Matrix(int x,int y);
+    Matrix(int x);
     //metody
     void Print();
 };
