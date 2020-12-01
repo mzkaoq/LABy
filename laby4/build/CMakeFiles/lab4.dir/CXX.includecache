@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Matrix.h
+iostream
+-
+fstream
+-
+
+C:/Users/THINK/Desktop/C++/LABy/laby4/src/Matrix.cpp
+Matrix.h
+-
+fstream
+-
+string
+-
+iostream
+-
+
+C:/Users/THINK/Desktop/C++/LABy/laby4/src/main.cpp
+iostream
+-
+Matrix.h
+-
+
