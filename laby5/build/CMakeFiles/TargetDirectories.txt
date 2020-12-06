@@ -1,0 +1,3 @@
+C:/Users/THINK/Desktop/C++/LABy/laby5/build/CMakeFiles/lab5.dir
+C:/Users/THINK/Desktop/C++/LABy/laby5/build/CMakeFiles/edit_cache.dir
+C:/Users/THINK/Desktop/C++/LABy/laby5/build/CMakeFiles/rebuild_cache.dir
