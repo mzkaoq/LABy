@@ -1,0 +1,3 @@
+C:/Users/THINK/Desktop/C++/hrms/build/CMakeFiles/hrms.dir
+C:/Users/THINK/Desktop/C++/hrms/build/CMakeFiles/edit_cache.dir
+C:/Users/THINK/Desktop/C++/hrms/build/CMakeFiles/rebuild_cache.dir
