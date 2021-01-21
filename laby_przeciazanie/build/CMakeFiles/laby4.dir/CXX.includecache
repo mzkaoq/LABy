@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Matrix.h
+iostream
+-
+fstream
+-
+list
+-
+
+C:/Users/THINK/Desktop/C++/LABy/laby_przeciazanie/src/main.cpp
+iostream
+-
+Matrix.h
+-
+

@@ -1,0 +1,3 @@
+C:/Users/THINK/Desktop/C++/LABy/laby_przeciazanie/build/CMakeFiles/laby4.dir
+C:/Users/THINK/Desktop/C++/LABy/laby_przeciazanie/build/CMakeFiles/edit_cache.dir
+C:/Users/THINK/Desktop/C++/LABy/laby_przeciazanie/build/CMakeFiles/rebuild_cache.dir
