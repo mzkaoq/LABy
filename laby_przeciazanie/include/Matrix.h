@@ -35,6 +35,9 @@ class Matrix
     friend ostream& operator << (ostream& out, Matrix m1);
     bool operator == (Matrix m2);
     double* operator [] (int n);
+    Matrix operator ++ ();
+    Matrix operator % (double n);
+    bool operator < (double n);
 };
 
 #endif

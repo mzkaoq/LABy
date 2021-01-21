@@ -64,7 +64,7 @@ void test()
     file << m14;
     file.close();
     cout << "porownanie m10 == m11" <<endl;
-    cout << (m10 == m11) <<endl;
+    cout << (m10 == m11) <<endl<<endl;
     cout<< "lista" <<endl;
     double* tab1 = m10[1];
     for(int i=0;i<4;i++)
@@ -72,6 +72,20 @@ void test()
         cout<<tab1[i]<<" ";
     }
     cout<<endl;
+    cout<<endl;
+    cout<< "m10"<<endl;
+    m10.Print();
+    cout<<"m15=m10++"<<endl;
+    Matrix m15;
+    m15=++m10;
+    m15.Print();
+     cout<<endl;
+    cout<<"m16=m14 % 2.3"<<endl;
+    Matrix m16;
+    m16=m15%2.3;
+    m16.Print();
+    cout<<"m16 < 5 "<<endl;
+    cout << (m16<5) <<endl;
 }
 int main()
 {

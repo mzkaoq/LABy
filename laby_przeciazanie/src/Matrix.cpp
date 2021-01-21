@@ -297,3 +297,42 @@ double *Matrix::operator[](int n)
 { 
    return tab[n];
 }
+Matrix Matrix :: operator++ ()
+{
+    Matrix wynik(rze,kol);
+    for (int i=0; i<rze; i++)
+    {            
+        for (int j=0; j<kol; j++)
+        {   
+            wynik.tab[i][j]=tab[i][j]+1;
+        }
+    }
+    return wynik;
+}
+Matrix Matrix :: operator % (double n)
+{
+    Matrix wynik(rze,kol);
+    for (int i=0; i<rze; i++)
+    {            
+        for (int j=0; j<kol; j++)
+        {   
+            wynik.tab[i][j]=tab[i][j];
+            while(wynik.tab[i][j]>=n)
+            {
+                wynik.tab[i][j]-=n;
+            }
+        }
+    }
+    return wynik;
+}
+bool Matrix :: operator < (double n)
+{
+    for (int i=0; i<rze; i++)
+    {            
+        for (int j=0; j<kol; j++)
+        {   
+            if(tab[i][j]>=n) return false;
+        }
+    }
+    return 1;
+}
