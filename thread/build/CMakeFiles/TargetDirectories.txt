@@ -1,0 +1,3 @@
+C:/Users/THINK/Desktop/C++/LABy/thread/build/CMakeFiles/thread.dir
+C:/Users/THINK/Desktop/C++/LABy/thread/build/CMakeFiles/edit_cache.dir
+C:/Users/THINK/Desktop/C++/LABy/thread/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/THINK/Desktop/C++/LABy/thread/src/main.cpp
+thread
+-
+mutex
+-
+iostream
+-
+cstdio
+-
+unistd.h
+-
+
