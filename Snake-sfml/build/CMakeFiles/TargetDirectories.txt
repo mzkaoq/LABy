@@ -1,0 +1,3 @@
+C:/Users/THINK/Desktop/C++/LABy/Snake-sfml/build/CMakeFiles/Snake.dir
+C:/Users/THINK/Desktop/C++/LABy/Snake-sfml/build/CMakeFiles/edit_cache.dir
+C:/Users/THINK/Desktop/C++/LABy/Snake-sfml/build/CMakeFiles/rebuild_cache.dir
