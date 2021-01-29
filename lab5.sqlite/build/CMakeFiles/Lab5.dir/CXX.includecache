@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/database.hpp
+sqlite3/sqlite3.h
+-
+vector
+-
+
+../include/matrix.hpp
+iostream
+-
+cstring
+-
+fstream
+-
+string
+-
+sqlite3/sqlite3.h
+-
+database.hpp
+-
+
+../libs/sqlite3/sqlite3.h
+stdarg.h
+-
+
+C:/Users/THINK/Desktop/C++/LABy/lab5.sqlite/src/main.cpp
+iostream
+-
+cstring
+-
+fstream
+-
+string
+-
+matrix.hpp
+-
+database.hpp
+-
+
